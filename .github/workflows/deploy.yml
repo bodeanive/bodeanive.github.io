@@ -49,3 +49,4 @@ jobs:
                   folder: public
                   clean: true
                   single-commit: true
+                  token: ${{ secrets.PAGETOKEN }}
