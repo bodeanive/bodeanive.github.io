@@ -41,6 +41,8 @@ jobs:
 
             - name: Build
               run: hugo --minify --gc
+              | ls -al /public
+              | ls -al
 
             - name: Deploy 🚀
               uses: JamesIves/github-pages-deploy-action@v4
